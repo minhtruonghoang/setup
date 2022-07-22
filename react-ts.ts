@@ -10,10 +10,4 @@
 // - TodoSytem.work() -> Work on nextItems and return result after all those items finished.
 
 // Try to integrate this system with React application without using external library.
-// For example: calling TodoIte
-
-const delay = (time) = >{
-    return new Promise(res=>{
-        setTimeout(()=>res("hello"))
-    })
-}
+// For example: calling TodoItem.updateTitle(newTitle) should reflect in the UI
